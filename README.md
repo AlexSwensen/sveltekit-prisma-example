@@ -2,18 +2,22 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## Prisma setup
+Initialize your local dev db with the following commands:
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npx prisma generate
+npx prisma db push
 ```
 
+You can now create a user in prisma studio if you wish.
+```
+npx prisma studio
+```
+
+once you have a user, you can run the app with `npm run dev`
+
+The home page should show you a list of user emails.
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
