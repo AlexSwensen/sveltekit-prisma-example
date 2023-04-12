@@ -2,7 +2,14 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+## first steps:
+
+copy `.env.example` to `.env` and fill in the values (if any)
+
 ## Prisma setup
+
+By default, this project uses sqlite for simplicity.
+
 Initialize your local dev db with the following commands:
 
 ```bash
