@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { User } from '@prisma/client';
-	export let data: { users: User[] };
+	import type { PageData } from './$types';
+	export let data: PageData;
 </script>
 
 <h1>Welcome to SvelteKit</h1>
