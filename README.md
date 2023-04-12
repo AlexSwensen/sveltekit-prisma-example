@@ -1,6 +1,6 @@
-# create-svelte
+# SvelteKit Prisma Example
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A simple POC i threw together to see what it would take to get Prisma and Sveltekit working together.
 
 ## first steps:
 
