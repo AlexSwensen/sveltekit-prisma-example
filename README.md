@@ -18,6 +18,7 @@ npx prisma db push
 ```
 
 You can now create a user in prisma studio if you wish.
+
 ```
 npx prisma studio
 ```
@@ -25,6 +26,7 @@ npx prisma studio
 once you have a user, you can run the app with `npm run dev`
 
 The home page should show you a list of user emails.
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
