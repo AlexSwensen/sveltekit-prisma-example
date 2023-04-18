@@ -3,6 +3,11 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<title>SvelteKit + Prisma</title>
+	<meta name="description" content="SvelteKit + Prisma" />
+</svelte:head>
+
 <div class="flex flex-col items-center justify-center">
 	<div class="mb-10">
 		<div class="rounded-lg bg-slate-700 p-10 text-slate-100 dark:bg-slate-500 dark:text-slate-100">
